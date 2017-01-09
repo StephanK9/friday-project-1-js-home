@@ -1,4 +1,4 @@
-var apiKey = "f9040cfe6c7c460a034f37bc3a4311e7";
+var apiKey = require('./../.env').apiKey;
 
 $(document).ready(function(){
   $('#searchDoctor').click(function(){
