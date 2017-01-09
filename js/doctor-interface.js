@@ -1,5 +1,12 @@
 var apiKey = require('./../.env').apiKey;
 
+var Doctor = require('./../js/doctor.js').doctorModule;
+
+$(document).ready(function(){
+  var currentDoctorObject = new Doctor();
+  currentDoctorObject.getDoctor();
+})
+
 $(document).ready(function(){
   $('#searchDoctor').click(function(){
     var medicalIssue = $('#symptom').val();
