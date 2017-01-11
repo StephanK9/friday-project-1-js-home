@@ -1,0 +1,30 @@
+$gray : #d3d3d3;
+$charcoal : #302f2d;
+$green: #11a316;
+
+h1 {
+  color: #3e4647;
+  text-decoration: underline;
+  text-align: center;
+  font-family: inherit;
+}
+
+h2 {
+  color: $green;
+}
+
+body {
+  background-color: #0ba0a8;
+}
+
+.box {
+  background: $gray;
+  border: 3px solid black;
+  padding: 40px 80px;
+  .button {
+    font-weight: bold;
+    text-align: center;
+    background: $charcoal;
+    color: #11a316;
+  }
+}
